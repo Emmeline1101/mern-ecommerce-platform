@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Header from './components/header';
 import { Container } from "react-bootstrap";
-
+import Footer from './components/Footer';
  
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <h1>Welcome to Emmeline's Shop</h1>
         </Container>
       </main>
+      <Footer />
     </>
    
   );
