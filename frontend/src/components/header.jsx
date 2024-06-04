@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container, NavDropdown, Badge } from 'react-bootstrap';
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
-
+import logo from '../assets/logo.png';
 
 const Header = () => {
 
@@ -10,6 +10,7 @@ const Header = () => {
         <Container>
 
             <Navbar.Brand href="/">
+            <img src={logo} alt='Emmelines Shop' />
                 Emmeline's Shop
             </Navbar.Brand>
 
