@@ -7,3 +7,4 @@ A eCommerce platform is built with MERN stack, Redux and Postman
 - **node_modules**: Server dependencies (Express, Mongoose, etc.,)
 - **env**: Environment variables - MongoDB URI, JWT Secret, etc
 - **package.json**: Server package.json, record info
+ 
