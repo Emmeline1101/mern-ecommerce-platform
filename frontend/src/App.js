@@ -12,8 +12,8 @@ const App = () => {
       <main className='py-3'>
         <Container>
           <Outlet/>
-          <h1>Welcome to Emmeline's Shop</h1>
-          <HomeScreen />
+          {/* <h1>Welcome to Emmeline's Shop</h1> */}
+          {/* <HomeScreen /> */}
         </Container>
       </main>
       <Footer />
