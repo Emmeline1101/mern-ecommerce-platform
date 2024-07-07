@@ -12,7 +12,7 @@ app.get('/api/products', (req, res) => {
     res.json(products);
 }); 
 
-app.get('/api/products/:id', (req, res) => {
+app.get('/api/products/:id' , (req, res) => {
     const product = products.find((p) => p._id === req.params.id); // if the product id matches the id in the url, then we will return that product
     res.json(product);
 });
