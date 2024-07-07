@@ -1,6 +1,8 @@
 import express from 'express';
+import dotenv from 'dotenv';
+dotenv.config(); // to use the .env file
 import products from './data/products.js'; // do not forhet to add the .js extension in ES
-const port = 5001;
+const port = process.env.PORT || 5001;
 
 const app = express();
 
