@@ -7,6 +7,7 @@ import Product from '../models/productModel.js';
 
 router.get('/', asyncHandler(async(req, res) => {
     const products = await Product.find({});
+    // throw new Error('Some error');
     res.json(products);
 })); 
 
